@@ -1,0 +1,52 @@
+@media (max-width: 1024px) {
+    .container {
+        gap: 4vh;
+    }
+    .box {
+        flex: 0 0 calc(50% - 4vh);
+        height: 38vh;
+    }
+    .Intro {
+        width: 90%;
+    }
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        flex: 0 0 100%;
+        height: 35vh;
+    }
+    .container {
+        gap: 3vh;
+    }
+    .Intro {
+        height: auto;
+        padding: 2vh;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .Intro h1 {
+        font-size: 20px;
+    }
+    .Intro p {
+        font-size: 14px;
+    }
+    .project-name {
+        font-size: 10px;
+    }
+    .box {
+        height: 32vh;
+    }
+    .footer ul {
+        gap: 3vh;
+    }
+    .footer ul li img {
+        height: 30px;
+        width: 30px;
+    }
+}
