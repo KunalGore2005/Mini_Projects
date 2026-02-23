@@ -1,0 +1,60 @@
+
+.page{
+    margin:10px auto;
+    border:2px;
+    padding: 10px;
+    border-color:black;
+    border-style: solid;
+}
+main{
+    font-family: 'Times New Roman', monospace;
+}
+header{
+    text-align:center;
+    align-items: center;
+    line-height: 0.2;
+}
+#info{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+h2{
+    text-transform: uppercase;
+}
+.skills{
+    display:flex;
+    justify-content:left;
+    list-style:circle;
+    margin:1px;
+    padding:2px;
+    
+}
+.sbox{
+    margin:1px 15px;
+    padding:2px;
+}
+.mbox{
+    margin:5px;
+    padding:2px;
+}
+#image{
+    border:5px solid;
+    border-color: black;
+    border-radius: 50%;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+td,th{
+    word-wrap: break-word;
+    padding:8px;
+}
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+th {
+    background-color: #333;
+    color: white;
+}
