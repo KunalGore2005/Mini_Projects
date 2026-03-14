@@ -20,6 +20,7 @@ Each project focuses on improving practical implementation skills rather than ju
 
 - 🎲 Snake and Ladders (Web Version)
 - ❌ Tic-Tac-Toe Game
+- 🧮 calculator
 - 📝 Resume Webpage
 
 ---
